@@ -1,6 +1,7 @@
 Class.js
 ========
 
+```javascript
 var Iterator = require("class").define(function(value){
   // here is constructor
   this.storedValue = value;
@@ -30,3 +31,4 @@ i1.inc();
 i1.inc();
 expect(i1.value).toBe(3);
 expect(i2.value).toBe(3);
+```
